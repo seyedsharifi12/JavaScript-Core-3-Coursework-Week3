@@ -80,6 +80,4 @@ const gryffindorMembers = (hogwarts) => {
     (member) => `${member.firstName} ${member.lastName}`
   );
 };
-// membersOfGryff(hogwarts);
-
 // Task2
