@@ -70,3 +70,16 @@ let hogwarts = [
     occupation: "Teacher",
   },
 ];
+
+//Task 1
+const gryffindorMembers = (hogwarts) => {
+  const gryffindorHouses = hogwarts.filter(
+    (house) => house.house === "Gryffindor"
+  );
+  return gryffindorHouses.map(
+    (member) => `${member.firstName} ${member.lastName}`
+  );
+};
+// membersOfGryff(hogwarts);
+
+// Task2
